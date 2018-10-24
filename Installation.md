@@ -5,8 +5,9 @@
 | Package         | Version | OS            | Link/Reference                          |
 | --------------- | ------- | ------------- | --------------------------------------- |
 | Oracle Java JDK | 1.8.0_x | Linux Mint 19 | Nil                                     |
+| Scala           | 21.11.8 | Linux Mint 19 | Nil                                     |
 | Apache Spark    | 2.1.3   | Linux Mint 19 | https://spark.apache.org/downloads.html |
-| Apache Hadoop   |         |               |                                         |
+|                 |         |               |                                         |
 
 ## Java JDK
 
@@ -117,7 +118,66 @@ res0: String = 2.1.3
 
 ### Jetbrains IntelliJ IDEA
 
-```bash
+Ensure the IntelliJ Scala Plugin is installed at _Settings > Plugins > Browse Repositories > Scala_.
 
+![IntelliJ IDEA Settings](./assets/ide_1.png)
+
+#### Creating a new sbt IntelliJ IDEA project
+
+To create a new project, start IntelliJ IDE and select _Create New Project_ or _File > New > Project_.
+
+![IntelliJ IDE New Project](./assets/ide_2.png)
+
+Select _Scala_ and _sbt_ and then name your project.
+
+![IntelliJ IDEA sbt settings](./assets/ide_3.png)
+
+The project should now look something like this after building.
+
+![IntelliJ IDEA Project Start](./assets/ide_4.png)
+
+The project structure should be something like this:name := "IntelliJSBTHelloScala"
+
+version:= "1.0"
+
+scalaVersion := ""
+
+* _.idea_
+  * IntelliJ IDEA configuration files.
+* _project_
+  * Files used during compilation. For example, build.properties allows you to change the SBT version used when compiling your project.
+* _src_
+  * Source code. Most of your code should go into the main directory. The test folder should be reserved for test scripts.
+* _target_
+  * When you compile your project will go here.
+* _build.sbt_
+  * The SBT configuration file. We’ll show you how to use this file to import third party libraries and documentation. 
+
+### SBT
+
+Before building a Spark application, import the Spark libraries and documentation with IntelliJ. To perform this we will use SBT. This is necessary if we want IntelliJ to recognize Spark code. Add the following lines to the file `build.sbt`
+
+```scala
+name := "IntelliJSBTHelloScala"
+
+version := "0.1"
+
+scalaVersion := "2.11.8"
+
+// https://mvnrepository.com/artifact/org.apache.spark/spark-code
+libraryDependencies += "org.apache.spark" %% "spark-core" % "2.1.3"
 ```
 
+#### SBT Syntax for Importing
+
+All imports in SBT follow this format:
+
+`Group ID % Artifact Id % Revision`
+
+Where:
+
+* Group ID is “org.apache.spark”
+* Artifact ID is “spark-core”
+* Revision is “2.1.3”
+
+The `%%` syntax additionally appends the Scala version, in our case transforming “spark-core” to “spark-core_2.1”.
