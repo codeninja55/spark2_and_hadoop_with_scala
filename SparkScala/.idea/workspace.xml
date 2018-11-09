@@ -1,14 +1,544 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="35e2d418-b295-4511-9fdb-c8285c7b63c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_7_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/.idea/modules/SparkScala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/.idea/modules/SparkScala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/1800.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/DataFrames.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/DegreesOfSeparation.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/FriendsByAge.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/GraphX.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/LearningScala1.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/LearningScala2.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/LearningScala3.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/LearningScala4.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/LinearRegression.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/LinearRegressionDataFrame.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/Marvel-graph.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/Marvel-names.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/MaxTemperatures.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/MinTemperatures.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/MostPopularSuperhero.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/MovieRecommendationsALS.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/MovieSimilarities.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/MovieSimilarities1M.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/PopularHashtags.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/PopularMovies.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/PopularMoviesDataSets.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/PopularMoviesNicer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/RatingsCounter.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/SparkSQL.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/TotalSpentByCustomer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/TotalSpentByCustomerSorted.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/WordCount.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/WordCountBetter.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/WordCountBetterSorted.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/book.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/customer-orders.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/dstream-twitter_2.11-2.3.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/fakefriends.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/regression.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/sbt/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/sbt/project/assembly.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/sbt/src/main/scala/MovieSimilarities1M.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/twitter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/twitter4j-core-4.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/twitter4j-stream-4.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/winutils.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/allbut.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/mku.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/u.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/u.genre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/u.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/u.item" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/u.occupation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/u.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/u1.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/u1.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/u2.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/u2.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/u3.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/u3.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/u4.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/u4.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/u5.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/u5.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/ua.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/ua.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/ub.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/ml-100k/ub.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/config-classes/$5042c89efb4ad8f9bf44.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/config-classes/$5235483b1db0ddf4b306.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/config-classes/$5ced7390a6b732945b94.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/config-classes/$828bc6c7e6a5f1ddc3ea.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/scala-2.12/sbt-1.0/resolution-cache/default/apache_udemy_spark2_with_scala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/scala-2.12/sbt-1.0/resolution-cache/default/apache_udemy_spark2_with_scala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-apache_udemy_spark2_with_scala-build-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-apache_udemy_spark2_with_scala-build-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-apache_udemy_spark2_with_scala-build-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-apache_udemy_spark2_with_scala-build-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-apache_udemy_spark2_with_scala-build-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-apache_udemy_spark2_with_scala-build-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-apache_udemy_spark2_with_scala-build-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-apache_udemy_spark2_with_scala-build-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-apache_udemy_spark2_with_scala-build-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-apache_udemy_spark2_with_scala-build-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-apache_udemy_spark2_with_scala-build-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/$global/$global/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/$global/ivySbt/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/$global/projectDescriptors/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/$global/update/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/compile/compile/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/compile/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/compile/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/ivy-report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala$sources-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala$sources-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala$sources-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala$sources-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala$sources-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala$sources-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala$sources-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala$sources-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala$sources-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala$sources-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala$sources-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala_2.12-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala_2.12-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala_2.12-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala_2.12-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala_2.12-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala_2.12-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala_2.12-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala_2.12-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala_2.12-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala_2.12-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/reports/sparkscala-sparkscala_2.12-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/sparkscala/sparkscala$sources/0.1/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/sparkscala/sparkscala$sources/0.1/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/sparkscala/sparkscala_2.12/0.1/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/scala-2.12/resolution-cache/sparkscala/sparkscala_2.12/0.1/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/$global/ivySbt/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/$global/projectDescriptors/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/$global/update/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/compile/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/compile/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/test/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/streams/test/unmanagedJars/$global/streams/export" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/target/" />
+    <ignored path="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../apache_udemy_spark2_with_scala">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1338525838">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="sbt" value="13" />
+          <entry key="scala" value="552" />
+          <entry key="txt" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Scala" value="552" />
+          <entry key="sbt" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="sbt" value="1" />
+          <entry key="scala" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="Scala" value="3" />
+          <entry key="sbt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="code" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/build.sbt" />
+        <option value="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/src/main/scala/com/codeninja55/spark/RatingsCounter.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-2" />
     <option name="y" value="48" />
     <option name="width" value="3204" />
     <option name="height" value="1754" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SparkScala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apache_udemy_spark2_with_scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../apache_udemy_spark2_with_scala" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="RatingsCounter" type="Application" factoryName="Application">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RatingsCounter" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.codeninja55.spark.RatingsCounter" />
+      <module name="SparkScala" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../apache_udemy_spark2_with_scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codeninja55.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RatingsCounter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="SparkScala" />
+              <option name="path" value="$PROJECT_DIR$/../apache_udemy_spark2_with_scala" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="apache_udemy_spark2_with_scala [file:/home/codeninja/Github/spark2_and_hadoop_with_scala/apache_udemy_spark2_with_scala/]" />
+                <option name="path" value="$PROJECT_DIR$/../apache_udemy_spark2_with_scala" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="apache_udemy_spark2_with_scala-build [file:/home/codeninja/Github/spark2_and_hadoop_with_scala/apache_udemy_spark2_with_scala/]" />
+                <option name="path" value="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/build.sbt" value="2629826166" />
+        <entry key="$PROJECT_DIR$/../apache_udemy_spark2_with_scala/project/build.properties" value="2125951362" />
+      </map>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35e2d418-b295-4511-9fdb-c8285c7b63c1" name="Default Changelist" comment="" />
+      <created>1541764998902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541764998902</updated>
+      <workItem from="1541765000854" duration="664000" />
+      <workItem from="1541765689075" duration="1658000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2322000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="48" width="3204" height="1754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.140625" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.36100388" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.32941177" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="KodeBeagle" order="3" />
+      <window_info anchor="right" id="sbt" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../apache_udemy_spark2_with_scala/src/main/scala/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/../apache_udemy_spark2_with_scala/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../apache_udemy_spark2_with_scala/SparkScalaBackup/RatingsCounter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="32" selection-end-column="34" />
+          <folding>
+            <element signature="e#34#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../apache_udemy_spark2_with_scala/src/main/scala/com/codeninja55/spark/RatingsCounter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#31#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SparkScala</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>sbt: org.scala-lang:scala-library:2.12.7:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
