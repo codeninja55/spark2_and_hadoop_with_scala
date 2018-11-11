@@ -4,10 +4,10 @@
 	<info
 		organisation="sparkscala"
 		module="sparkscala_2.11"
-		revision="0.1"
+		revision="0.2"
 		conf="optional"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20181110000219"/>
+		date="20181112005304"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

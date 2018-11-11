@@ -2,3 +2,19 @@
 *.log
 
 IntelliJSBTHelloScala/\.idea/
+
+
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+apache_udemy_spark2_with_scala/\.idea
+apache_udemy_spark2_with_scala/\dist/*
+apache_udemy_spark2_with_scala/\target/
+apache_udemy_spark2_with_scala/\lib_managed/
+apache_udemy_spark2_with_scala/\src_managed/
+apache_udemy_spark2_with_scala/\project/boot/
+apache_udemy_spark2_with_scala/\project/target/
+apache_udemy_spark2_with_scala/\project/plugins/project/
+apache_udemy_spark2_with_scala/\.history
+apache_udemy_spark2_with_scala/\.cache
+apache_udemy_spark2_with_scala/\.lib/
